@@ -3,6 +3,8 @@ title: Aliasing Plugins
 ---
 
 To include a plugin twice, alias it using a colon.
+Note: Setting the `plugins` config property disable auto discovering plugins,
+don't forget to explicitely define all plugins.
 
 ```javascript
 plugins: ["s3-assets:foo-assets",
